@@ -4,3 +4,5 @@ Em um segundo momento, buscamos entender os equipamentos associados a cada um do
     - Para cada plano, verificamos os hospitais credenciados e os equipamentos disponíveis no CNES
     - O total de equipamentos disponível é a média ponderada de equipamentos disponíveis para cada plano pela população total do Perfil de Plano de saúde.
     - A apresentação é feita, posteriormente no Excel em Equipamentos por 100 mil Beneficiários.
+
+Nos arquivos, a coluna "Chave" nada mais é do que o agregado entre o Código da Operadora na planilha original da ANS (CD_OPERADORA) e o Código do Plano (CD_PLANO), agrupados com um hifen. Isso permite a unificação das bases e as análises subsequentes.
